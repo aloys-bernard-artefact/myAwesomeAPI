@@ -1,0 +1,15 @@
+
+# Datasets 
+data 
+
+# Credentials
+.env
+
+# Python
+
+__pycache__/
+*.pyc
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints/
