@@ -26,3 +26,8 @@ format :
 install : 
 	pip install --upgrade pip
 	pip install -r requirements.txt
+
+
+# Test the API 
+test_alive : 
+	curl -X GET $(API_URL)

@@ -3,5 +3,5 @@ import pytest
 
 
 @pytest.fixture()
-def cat():
+def _cat():
     return Cat("Kitty")
